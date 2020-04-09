@@ -24,6 +24,26 @@
 [内核笔记 - 用户态](https://zero-day.cn/2020/03/12/kernel-user-mod/)
 
 
+## 运行方法
+
+重新编译：
+
+```
+make
+```
+
+调试方法:（我用的peda,自行修改Makefile）
+
+```
+make debug
+```
+
+运行系统：
+
+```
+make qemu
+```
+
 ![](/image/kernel.png)
 
 
